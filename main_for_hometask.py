@@ -8,7 +8,7 @@ def solution(string):
             return (- b - (d ** 0.5)) / (2 * a), (- b + (d ** 0.5)) / (2 * a)
         elif d == 0:
             return - b + (d ** 0.5) / 2 * a
-    return "no solutions, sry"
+    return "нет решения"
 
 
 print(solution(input("enter rations below:\n")))
